@@ -51,6 +51,7 @@ const Modal = (props) => {
     setCityWasTouched(false);
     setStatesWasTouched(false);
     setZipWasTouched(false);
+    setIsFormValid(false);
   };
 
   var CharRegEx = /^[a-zA-Z ]+$/;
